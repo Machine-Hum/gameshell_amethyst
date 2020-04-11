@@ -1,5 +1,10 @@
 # Getting Started
 
+mesa-vulkan-drivers libvulkan-dev libvulkan1 vulkan-utils
+
+- Swap Stuff
+https://itsfoss.com/create-swap-file-linux/
+
 %s/1.0.3/1.0.2/g
 https://stackoverflow.com/questions/60576277/rust-amethyst-error-e0433-failed-to-resolve-could-not-find-rt-in-qu
 

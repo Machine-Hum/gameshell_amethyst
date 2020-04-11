@@ -5,12 +5,18 @@ authors = ["Hilmar Wiegand <me@hwgnd.de>"]
 edition = "2018"
 
 [dependencies]
-amethyst = { git = "https://github.com/amethyst/amethyst" }
 log = { version = "0.4.8", features = ["serde"] }
 
+[dependencies.amethyst]
+git = "https://github.com/amethyst/amethyst" 
+branch = "wasm"
+
 [features]
-default = ["vulkan"]
 empty = ["amethyst/empty"]
 metal = ["amethyst/metal"]
 vulkan = ["amethyst/vulkan"]
+gl = ["amethyst/gl"]
+
+default = ["gl"]
+
 # nightly = ["amethyst/nightly"]
