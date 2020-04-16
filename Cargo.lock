@@ -51,7 +51,6 @@ dependencies = [
 [[package]]
 name = "alsa-sys"
 version = "0.1.1"
-source = "git+https://github.com/amethyst/cpal?branch=wasm#8b9e1e23188c47d61560fed9d1f53a2e4e699ae6"
 dependencies = [
  "libc",
  "pkg-config",
@@ -60,7 +59,7 @@ dependencies = [
 [[package]]
 name = "amethyst"
 version = "0.15.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "amethyst_animation",
  "amethyst_assets",
@@ -104,7 +103,7 @@ dependencies = [
 [[package]]
 name = "amethyst_animation"
 version = "0.10.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "amethyst_assets",
  "amethyst_core",
@@ -123,7 +122,7 @@ dependencies = [
 [[package]]
 name = "amethyst_assets"
 version = "0.11.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "amethyst_core",
  "amethyst_derive",
@@ -147,7 +146,7 @@ dependencies = [
 [[package]]
 name = "amethyst_audio"
 version = "0.10.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "amethyst_assets",
  "amethyst_core",
@@ -163,7 +162,7 @@ dependencies = [
 [[package]]
 name = "amethyst_config"
 version = "0.14.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "log",
  "ron",
@@ -173,7 +172,7 @@ dependencies = [
 [[package]]
 name = "amethyst_controls"
 version = "0.9.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "amethyst_assets",
  "amethyst_core",
@@ -190,7 +189,7 @@ dependencies = [
 [[package]]
 name = "amethyst_core"
 version = "0.10.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "alga",
  "alga_derive",
@@ -213,7 +212,7 @@ dependencies = [
 [[package]]
 name = "amethyst_derive"
 version = "0.8.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "heck",
  "proc-macro-crate",
@@ -226,7 +225,7 @@ dependencies = [
 [[package]]
 name = "amethyst_error"
 version = "0.5.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "backtrace",
 ]
@@ -234,7 +233,7 @@ dependencies = [
 [[package]]
 name = "amethyst_input"
 version = "0.11.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "amethyst_config",
  "amethyst_core",
@@ -251,7 +250,7 @@ dependencies = [
 [[package]]
 name = "amethyst_locale"
 version = "0.9.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "amethyst_assets",
  "amethyst_core",
@@ -264,7 +263,7 @@ dependencies = [
 [[package]]
 name = "amethyst_network"
 version = "0.8.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "amethyst_core",
  "amethyst_error",
@@ -276,7 +275,7 @@ dependencies = [
 [[package]]
 name = "amethyst_rendy"
 version = "0.5.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "amethyst_assets",
  "amethyst_config",
@@ -305,7 +304,7 @@ dependencies = [
 [[package]]
 name = "amethyst_ui"
 version = "0.10.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "amethyst_assets",
  "amethyst_audio",
@@ -337,7 +336,7 @@ dependencies = [
 [[package]]
 name = "amethyst_utils"
 version = "0.10.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "amethyst_assets",
  "amethyst_controls",
@@ -356,7 +355,7 @@ dependencies = [
 [[package]]
 name = "amethyst_window"
 version = "0.5.0"
-source = "git+https://github.com/amethyst/amethyst?branch=wasm#32b8a0767263e28e69d714ff7d5fdbd95872b313"
+source = "git+https://github.com/amethyst/amethyst?branch=wasm#b5ffae7419d8800a22f360c9c8479c9c523bd6d0"
 dependencies = [
  "amethyst_config",
  "amethyst_core",
@@ -852,19 +851,16 @@ dependencies = [
 [[package]]
 name = "cpal"
 version = "0.11.0"
-source = "git+https://github.com/amethyst/cpal?branch=wasm#8b9e1e23188c47d61560fed9d1f53a2e4e699ae6"
 dependencies = [
  "alsa-sys",
  "core-foundation-sys 0.6.2",
  "coreaudio-rs",
- "js-sys",
  "lazy_static",
  "libc",
  "num-traits 0.2.11",
  "parking_lot 0.9.0",
  "stdweb",
  "thiserror",
- "web-sys",
  "winapi 0.3.8",
 ]
 
@@ -1782,9 +1778,9 @@ dependencies = [
 
 [[package]]
 name = "libc"
-version = "0.2.68"
+version = "0.2.69"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dea0c0405123bba743ee3f91f49b1c7cfb684eef0da0a50110f758ccf24cdff0"
+checksum = "99e85c08494b21a9054e7fe1374a732aeadaff3980b6990b94bfd3a70f690005"
 
 [[package]]
 name = "libloading"
@@ -1908,9 +1904,9 @@ dependencies = [
 
 [[package]]
 name = "mint"
-version = "0.5.4"
+version = "0.5.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c8d80717448454e312cb3148adab19943f1553a8fbc828a39b0e91911f488130"
+checksum = "d42e54f364a39ad5238e3072db2e8747785b37655368da756987d3b09ada91e0"
 
 [[package]]
 name = "minterpolate"
@@ -3450,18 +3446,18 @@ dependencies = [
 
 [[package]]
 name = "thiserror"
-version = "1.0.14"
+version = "1.0.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f0570dc61221295909abdb95c739f2e74325e14293b2026b0a7e195091ec54ae"
+checksum = "54b3d3d2ff68104100ab257bb6bb0cb26c901abe4bd4ba15961f3bf867924012"
 dependencies = [
  "thiserror-impl",
 ]
 
 [[package]]
 name = "thiserror-impl"
-version = "1.0.14"
+version = "1.0.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "227362df41d566be41a28f64401e07a043157c21c14b9785a0d8e256f940a8fd"
+checksum = "ca972988113b7715266f91250ddb98070d033c62a011fa0fcc57434a649310dd"
 dependencies = [
  "proc-macro2 1.0.10",
  "quote 1.0.3",
@@ -3567,9 +3563,9 @@ dependencies = [
 
 [[package]]
 name = "typenum"
-version = "1.11.2"
+version = "1.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6d2783fe2d6b8c1101136184eb41be8b1ad379e4657050b8aaff0c79ee7575f9"
+checksum = "373c8a200f9e67a0c95e62a4f52fbf80c23b4381c05a17845531982fa99e6b33"
 
 [[package]]
 name = "unic-langid"
